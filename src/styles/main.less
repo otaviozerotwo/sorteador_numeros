@@ -1,0 +1,62 @@
+@font-title: Montserrat, sans-serif;
+@font-body: Roboto, sans-serif;
+@color-white: #FFF;
+@color-pink: #EB3D5A;
+@color-yellow: #F7B731;
+@color-black: #000;
+
+body {
+  background-color: @color-pink;
+  font-family: @font-body;
+  color: @color-white;
+}
+
+h1 {
+  font-family: @font-title;
+  font-size: 3em;
+}
+
+main {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+}
+
+button {
+  padding: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: @color-yellow;
+  color: @color-black;
+  font-family: @font-body;
+}
+
+input {
+  display: block;
+  margin: 16px auto 0;
+  font-size: 2em;
+  max-width: 120px;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  color: @color-white;
+  border-bottom: 6px solid @color-white;
+}
+
+.resultado {
+  display: none;
+  padding: 16px;
+  margin-top: 120px;
+  border: 8px dotted @color-white;
+
+  span {
+    display: block;
+    font-weight: bold;
+    font-size: 3em;
+  }
+}
